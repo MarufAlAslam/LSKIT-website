@@ -9,6 +9,18 @@
     /* colors */
     --dark: #414141;
     --orange: #F15A46;
+    --dark1: #111111;
+    --muted: #6E6E6E;
+
+
+    /* gaps */
+    --hundred: 100px;
+    --sixty: 60px;
+    --fifty: 50px;
+
+
+    /* sizes */
+    --twentyTwo: 22px;
 }
 
 
@@ -28,14 +40,14 @@
 }
 
 .fs-22 {
-    font-size: 22px;
+    font-size: var(--twentyTwo);
 }
 
 
 
 /* header part */
 .img-fluid.logo {
-    height: 50px;
+    height: var(--fifty);
 }
 
 .dark {
@@ -53,4 +65,46 @@
 
 .btn-orange {
     background-color: var(--orange) !important;
+}
+
+/* banner area */
+.header-title-xl {
+    font-size: 70px;
+}
+
+.title {
+    color: var(--dark1);
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.subtitle-xl {
+    font-size: 32px;
+}
+
+.py-100 {
+    padding-top: var(--hundred);
+    padding-bottom: var(--hundred);
+}
+
+.btn-dark {
+    font-size: var(--twentyTwo);
+    background-color: var(--dark1) !important;
+}
+
+.mt-60 {
+    margin-top: var(--sixty);
+}
+
+.mb-50 {
+    margin-bottom: var(--fifty);
+}
+
+.fs-28 {
+    font-size: 28px;
+    color: var(--dark);
+    text-decoration: none;
+    font-weight: 600;
 }
