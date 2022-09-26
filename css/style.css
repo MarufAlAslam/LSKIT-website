@@ -28,6 +28,7 @@
     --thirty: 30px;
     --thirtyFour: 34px;
     --fourty: 40px;
+    --fourtyFive: 45px;
 }
 
 
@@ -173,4 +174,10 @@
 .btn-inactive.active {
     background-color: var(--orange) !important;
     color: white !important;
+}
+
+
+/* be with lskit */
+.fs-45 {
+    font-size: var(--fourtyFive);
 }
