@@ -11,6 +11,7 @@
     --orange: #F15A46;
     --dark1: #111111;
     --muted: #6E6E6E;
+    --inactive: #F3F3F3;
 
 
     /* gaps */
@@ -22,8 +23,11 @@
 
     /* sizes */
     --twentyTwo: 22px;
+    --twentyFour: 24px;
     --twenty: 20px;
+    --thirty: 30px;
     --thirtyFour: 34px;
+    --fourty: 40px;
 }
 
 
@@ -136,4 +140,37 @@
 .fw-semibold.fs-34.text-white.pt-3.mb-5 {
     margin-bottom: 0 !important;
     height: 120px;
+}
+
+
+/* help */
+.fs-24 {
+    font-size: var(--twentyFour);
+}
+
+.text-orange {
+    color: var(--orange);
+}
+
+.mt-50 {
+    margin-top: var(--fifty);
+}
+
+.fs-30 {
+    font-size: var(--thirty);
+}
+
+.fs-40 {
+    font-size: var(--fourty);
+}
+
+.btn-inactive {
+    background-color: var(--inactive);
+    color: var(--dark);
+}
+
+.btn-inactive:hover,
+.btn-inactive.active {
+    background-color: var(--orange) !important;
+    color: white !important;
 }
