@@ -188,3 +188,9 @@
 .fs-12 {
     font-size: var(--twelve);
 }
+
+
+/* working process */
+form input {
+    height: 55px;
+}
