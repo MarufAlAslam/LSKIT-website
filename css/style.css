@@ -194,3 +194,10 @@
 form input {
     height: 55px;
 }
+
+
+
+/* figure */
+.fs-50 {
+    font-size: var(--fifty);
+}
