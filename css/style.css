@@ -23,6 +23,7 @@
     /* sizes */
     --twentyTwo: 22px;
     --twenty: 20px;
+    --thirtyFour: 34px;
 }
 
 
@@ -120,4 +121,19 @@
 
 .fs-20 {
     font-size: var(--twenty);
+}
+
+
+/* services */
+.bg-orange {
+    background-color: var(--orange);
+}
+
+.fs-34 {
+    font-size: var(--thirtyFour);
+}
+
+.fw-semibold.fs-34.text-white.pt-3.mb-5 {
+    margin-bottom: 0 !important;
+    height: 120px;
 }
