@@ -17,10 +17,12 @@
     --hundred: 100px;
     --sixty: 60px;
     --fifty: 50px;
+    --seventy: 70px;
 
 
     /* sizes */
     --twentyTwo: 22px;
+    --twenty: 20px;
 }
 
 
@@ -69,7 +71,7 @@
 
 /* banner area */
 .header-title-xl {
-    font-size: 70px;
+    font-size: var(--seventy);
 }
 
 .title {
@@ -114,4 +116,8 @@
 .counter-text {
     font-size: 52px;
     font-weight: 800;
+}
+
+.fs-20 {
+    font-size: var(--twenty);
 }
