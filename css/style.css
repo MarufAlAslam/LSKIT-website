@@ -1,0 +1,56 @@
+/* variables */
+:root {
+    --source: 'Source Sans Pro', sans-serif;
+    --inter: 'Inter', sans-serif;
+    --roboto: 'Roboto', sans-serif;
+
+
+
+    /* colors */
+    --dark: #414141;
+    --orange: #F15A46;
+}
+
+
+/* universal */
+
+.source {
+    font-family: var(--source)
+}
+
+.inter,
+* {
+    font-family: var(--inter)
+}
+
+.roboto {
+    font-family: var(--roboto)
+}
+
+.fs-22 {
+    font-size: 22px;
+}
+
+
+
+/* header part */
+.img-fluid.logo {
+    height: 50px;
+}
+
+.dark {
+    color: var(--dark) !important;
+}
+
+.nav-link {
+    border-top: 2px solid transparent;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    border-top: 2px solid var(--orange);
+}
+
+.btn-orange {
+    background-color: var(--orange) !important;
+}
