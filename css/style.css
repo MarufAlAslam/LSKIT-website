@@ -22,6 +22,7 @@
 
 
     /* sizes */
+    --twelve: 12px;
     --twentyTwo: 22px;
     --twentyFour: 24px;
     --twenty: 20px;
@@ -180,4 +181,10 @@
 /* be with lskit */
 .fs-45 {
     font-size: var(--fourtyFive);
+}
+
+
+/* cards */
+.fs-12 {
+    font-size: var(--twelve);
 }
