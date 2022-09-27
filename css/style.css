@@ -9,9 +9,12 @@
     /* colors */
     --dark: #414141;
     --orange: #F15A46;
+    --orange1: #E3402B;
     --dark1: #111111;
     --muted: #6E6E6E;
     --inactive: #F3F3F3;
+    --strategy: #F47F6F;
+    --footer: #D63722;
 
 
     /* gaps */
@@ -30,6 +33,10 @@
     --thirtyFour: 34px;
     --fourty: 40px;
     --fourtyFive: 45px;
+
+
+    /* percentages */
+    --twentyP: 20%;
 }
 
 
@@ -50,6 +57,11 @@
 
 .fs-22 {
     font-size: var(--twentyTwo);
+}
+
+body,
+html {
+    overflow-x: hidden;
 }
 
 
@@ -200,4 +212,197 @@ form input {
 /* figure */
 .fs-50 {
     font-size: var(--fifty);
+}
+
+
+/* ready to grow */
+.ready-to-grow.py-5 .container {
+    background: url("../img/lines.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: bottom left;
+}
+
+
+/* steps */
+.item {
+    width: var(--twentyP);
+    padding: var(--twentyFour);
+}
+
+
+/* cards */
+.cardds.py-100 .card p {
+    height: 250px;
+}
+
+/* strategy */
+.strategy,
+.bg-orange-1 {
+    background-color: var(--strategy);
+}
+
+span.text-orange.bg-white {
+    display: flex;
+    width: 50px;
+    height: 65px;
+    font-size: 40px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+.bg-orange-1 {
+    background-color: var(--orange1);
+}
+
+.col-md-6.p-0.bg-orange.py-100 {
+    padding: 50px 0 !important;
+}
+
+/* footer */
+.footer {
+    background-color: var(--footer);
+    border-radius: 20px 20px 0 0 !important;
+    position: relative;
+    top: -20px;
+    margin-bottom: -20px;
+}
+
+.avatar {
+    min-width: 80px;
+    width: 100px;
+}
+
+.item {
+    width: 33.33%;
+}
+
+
+
+/* to top */
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.back-to-top img {
+    width: 40px;
+}
+
+
+/* whatsapp */
+.whatsapp {
+    position: fixed;
+    right: 0;
+    bottom: 130px;
+    z-index: 100;
+    background: white;
+    width: 60px;
+    padding: 10px;
+    border-radius: 30px 0 0 30px;
+}
+
+.whatsapp img {
+    width: 30px;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .header-title-md {
+        font-size: 50px !important;
+    }
+
+    .subtitle-md {
+        font-size: 18px;
+    }
+
+    .counter-text {
+        font-size: var(--twentyFour);
+        font-weight: 800;
+    }
+
+    .success.py-5 br {
+        display: none;
+    }
+
+    .success .d-flex.align-items-center.justify-content-between.flex-wrap {
+        justify-content: center !important;
+    }
+
+    .working .col-lg-6.text-end {
+        display: none;
+    }
+
+    .processes.bg-orange.py-100 .d-flex {
+        flex-direction: column;
+    }
+
+    .cardds.py-100 .card p {
+        height: auto;
+    }
+
+    .cardds.py-100 .card {
+        height: 100%;
+    }
+
+    .fs-50 {
+        font-size: var(--twentyFour);
+    }
+
+    .sliderSection .col-md-3.p-2.m-auto {
+        display: none;
+    }
+
+    .sliderSection .col-md-9 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 767px) {
+    .header-title-xm {
+        font-size: 26px;
+        font-weight: bold;
+    }
+
+    .py-100 {
+        padding-top: var(--fifty);
+        padding-bottom: var(--fifty);
+    }
+
+    .header-title-md {
+        font-size: 30px !important;
+    }
+
+    .fs-40 {
+        font-size: var(--twentyFour);
+    }
+
+    .ps-5 {
+        padding-left: 1rem !important;
+    }
+
+    .fs-45 {
+        font-size: var(--twentyFour);
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .input-group input {
+        width: 100% !important;
+        margin-bottom: 10px;
+        margin-right: 0 !important;
+    }
+
+    .item {
+        width: 100% !important;
+    }
 }
